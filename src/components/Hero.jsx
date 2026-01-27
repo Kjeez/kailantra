@@ -5,16 +5,22 @@ const Hero = () => {
     return (
         <div className="relative h-screen flex items-center justify-center overflow-hidden bg-black">
             {/* Background */}
+            {/* Background */}
             <img
                 src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=2068&auto=format&fit=crop"
                 alt="Camping Background"
-                className="absolute top-0 left-0 w-full h-full object-cover opacity-75 animate-[kenBurns_25s_ease-in-out_infinite_alternate]"
+                className="hidden md:block absolute top-0 left-0 w-full h-full object-cover opacity-75 animate-[kenBurns_25s_ease-in-out_infinite_alternate]"
+            />
+            <img
+                src="/img/mob_hero.jpg"
+                alt="Camping Background"
+                className="block md:hidden absolute top-0 left-0 w-full h-full object-cover opacity-75 animate-[kenBurns_25s_ease-in-out_infinite_alternate]"
             />
             {/* Overlays */}
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(0,0,0,0.7)_100%)] z-10"></div>
             <div className="absolute bottom-0 left-0 right-0 h-[40%] bg-gradient-to-t from-black/90 to-transparent z-10"></div>
 
-            <div className="relative z-20 text-center max-w-[1100px] px-8">
+            <div className="relative z-20 text-center max-w-[1100px] px-8 pt-32 md:pt-0">
                 <div className="inline-block bg-[#4CAF50]/15 border border-[#4CAF50]/40 text-[#4CAF50] px-6 py-2 rounded-full text-sm font-semibold tracking-wider mb-8 backdrop-blur-md animate-[fadeInDown_0.8s_ease-out]">
                     🏔️ HIMALAYAN ADVENTURE AWAITS
                 </div>

@@ -20,8 +20,8 @@ const Hero = () => {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(0,0,0,0.7)_100%)] z-10"></div>
             <div className="absolute bottom-0 left-0 right-0 h-[40%] bg-gradient-to-t from-black/90 to-transparent z-10"></div>
 
-            <div className="relative z-20 text-center max-w-[1100px] px-8 pt-48 md:pt-0">
-                <div className="inline-block bg-[#4CAF50]/15 border border-[#4CAF50]/40 text-[#4CAF50] px-6 py-2 rounded-full text-sm font-semibold tracking-wider mb-8 backdrop-blur-md animate-[fadeInDown_0.8s_ease-out]">
+            <div className="relative z-20 text-center max-w-[1100px] px-8 pt-64 md:pt-0">
+                <div className="inline-block bg-[#4CAF50]/15 border border-[#4CAF50]/40 text-[#4CAF50] px-6 py-2 rounded-full text-sm font-semibold tracking-wider mb-4 backdrop-blur-md animate-[fadeInDown_0.8s_ease-out]">
                     🏔️ HIMALAYAN ADVENTURE AWAITS
                 </div>
 

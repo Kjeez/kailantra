@@ -25,7 +25,7 @@ const Inclusions = () => {
     ];
 
     return (
-        <section className="py-24 px-6 bg-[#0a0a0a] relative overflow-hidden">
+        <section className="py-24 px-4 md:px-6 bg-[#0a0a0a] relative overflow-hidden">
             {/* Background Texture */}
             <div className="absolute inset-0 opacity-5 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
@@ -96,21 +96,13 @@ const Inclusions = () => {
                 {/* Important Guidelines Section */}
                 <div className="bg-[#121212] rounded-2xl border border-white/5 p-8 relative overflow-hidden">
                     <div className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-[#4CAF50] to-[#FF9966]"></div>
-                    <div className="grid md:grid-cols-3 gap-8">
+                    <div className="grid md:grid-cols-2 gap-8">
                         <div className="flex gap-4">
                             <Clock className="text-blue-400 shrink-0" />
                             <div>
                                 <h4 className="text-white font-bold mb-1">Check-in / Check-out</h4>
                                 <p className="text-white/60 text-sm">Check-in: 11:00 AM</p>
                                 <p className="text-white/60 text-sm">Check-out: 10:00 AM</p>
-                            </div>
-                        </div>
-                        <div className="flex gap-4">
-                            <AlertCircle className="text-yellow-400 shrink-0" />
-                            <div>
-                                <h4 className="text-white font-bold mb-1">House Rules</h4>
-                                <p className="text-white/60 text-sm">Quiet hours after 11 PM.</p>
-                                <p className="text-white/60 text-sm">Eco-friendly zone - No plastic litter.</p>
                             </div>
                         </div>
                         <div className="flex gap-4">

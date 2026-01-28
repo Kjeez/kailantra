@@ -27,7 +27,7 @@ const Testimonials = () => {
     ];
 
     return (
-        <section className="py-24 px-6 bg-[#121212] relative">
+        <section className="py-24 px-4 md:px-6 bg-[#121212] relative">
             <div className="container mx-auto">
                 <div className="text-center mb-16">
                     <span className="text-[#4CAF50] font-bold tracking-widest uppercase text-sm mb-2 block">Testimonials</span>

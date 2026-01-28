@@ -30,7 +30,7 @@ const Experience = () => {
     ];
 
     return (
-        <section className="py-24 px-6 bg-[#0f0f0f] relative overflow-hidden">
+        <section className="py-24 px-4 md:px-6 bg-[#121212] relative overflow-hidden">
             {/* Decorative Elements */}
             <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-[#4CAF50]/5 rounded-full blur-[100px] pointer-events-none" />
 

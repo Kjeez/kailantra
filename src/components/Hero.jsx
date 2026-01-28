@@ -20,9 +20,9 @@ const Hero = () => {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(0,0,0,0.7)_100%)] z-10"></div>
             <div className="absolute bottom-0 left-0 right-0 h-[40%] bg-gradient-to-t from-black/90 to-transparent z-10"></div>
 
-            <div className="relative z-20 text-center max-w-[1100px] px-8 pt-64 md:pt-0">
+            <div className="relative z-20 text-center max-w-[1100px] px-4 md:px-8 pt-64 md:pt-0">
                 <div className="inline-block bg-[#4CAF50]/15 border border-[#4CAF50]/40 text-[#4CAF50] px-6 py-2 rounded-full text-sm font-semibold tracking-wider mb-4 backdrop-blur-md animate-[fadeInDown_0.8s_ease-out]">
-                    🏔️ HIMALAYAN ADVENTURE AWAITS
+                    By Majestic Explorers Garhwal
                 </div>
 
                 <h1 className="text-5xl md:text-[82px] font-black leading-[1.1] mb-6 text-white tracking-tighter drop-shadow-2xl animate-[fadeInUp_1s_ease-out_0.2s_both]">
@@ -38,9 +38,9 @@ const Hero = () => {
                     <span>Ratoli, Near Tehri Lake, Uttarakhand</span>
                 </div>
 
-                <div className="inline-flex flex-col md:flex-row items-center gap-3 bg-[#E86A33]/15 border border-[#E86A33]/40 px-7 py-3 rounded-full text-white mb-8 backdrop-blur-md animate-[fadeInUp_1s_ease-out_0.7s_both]">
-                    <span className="text-sm opacity-90">Starting from</span>
-                    <span className="text-2xl font-black text-[#FF9966]">₹6,000</span>
+                <div className="inline-flex flex-col md:flex-row items-center gap-3 bg-[#E86A33]/15 border border-[#E86A33]/40 px-7 py-3 rounded-2xl text-white mb-8 backdrop-blur-md animate-[fadeInUp_1s_ease-out_0.7s_both]">
+                    <span className="text-sm opacity-90">Perfect Stay at</span>
+                    <span className="text-2xl font-black text-[#FF9966]">₹5,999</span>
                     <span className="text-sm opacity-80">Per person • 3D/2N</span>
                 </div>
 

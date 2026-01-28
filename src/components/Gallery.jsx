@@ -13,7 +13,7 @@ const Gallery = () => {
     ];
 
     return (
-        <section id="gallery" className="py-24 px-6 bg-[#0a0a0a]">
+        <section id="gallery" className="py-24 px-4 md:px-6 bg-[#0a0a0a] relative">
             <div className="container mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-4">Life at <span className="text-[#FF9966]">Kailantra</span></h2>

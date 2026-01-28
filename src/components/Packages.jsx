@@ -48,7 +48,7 @@ const Packages = () => {
     ];
 
     return (
-        <section id="packages" className="relative py-32 px-6 overflow-hidden bg-[#0a0a0a]">
+        <section id="packages" className="relative py-32 px-4 md:px-6 overflow-hidden bg-[#0a0a0a]">
             {/* Ambient Background Glow */}
             <div className="absolute top-1/4 left-0 w-[500px] h-[500px] bg-[#4CAF50]/10 rounded-full blur-[120px] pointer-events-none" />
             <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#FF9966]/10 rounded-full blur-[120px] pointer-events-none" />
@@ -71,8 +71,8 @@ const Packages = () => {
                         <div
                             key={idx}
                             className={`group relative bg-[#121212] rounded-[2rem] p-1 border transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl ${pkg.popular
-                                    ? 'border-[#4CAF50] shadow-[0_0_40px_rgba(76,175,80,0.2)]'
-                                    : 'border-white/5 hover:border-white/20'
+                                ? 'border-[#4CAF50] shadow-[0_0_40px_rgba(76,175,80,0.2)]'
+                                : 'border-white/5 hover:border-white/20'
                                 }`}
                         >
                             {/* Inner Card Content */}
@@ -115,8 +115,8 @@ const Packages = () => {
                                 <a
                                     href="https://wa.me/919205018170?text=Hi!%20I%20am%20interested%20in%20a%20package"
                                     className={`relative z-10 w-full py-4 rounded-xl font-bold text-sm uppercase tracking-wider text-center transition-all duration-300 flex items-center justify-center gap-2 ${pkg.popular
-                                            ? 'bg-[#4CAF50] text-black hover:bg-[#3d8c40] hover:shadow-[0_10px_20px_rgba(76,175,80,0.3)]'
-                                            : 'bg-white/5 text-white border border-white/10 hover:bg-white/10 hover:border-white/30'
+                                        ? 'bg-[#4CAF50] text-black hover:bg-[#3d8c40] hover:shadow-[0_10px_20px_rgba(76,175,80,0.3)]'
+                                        : 'bg-white/5 text-white border border-white/10 hover:bg-white/10 hover:border-white/30'
                                         }`}
                                 >
                                     Book Now
@@ -127,12 +127,12 @@ const Packages = () => {
                 </div>
 
                 <div className="mt-20 group relative rounded-[2.5rem] p-[1px] bg-gradient-to-r from-transparent via-[#FF9966]/50 to-transparent">
-                    <div className="relative bg-[#121212] rounded-[2.5rem] p-10 md:p-14 overflow-hidden">
+                    <div className="relative bg-[#121212] rounded-[2.5rem] p-6 md:p-14 overflow-hidden">
                         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
                         <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-[#FF9966]/10 blur-[100px] rounded-full pointer-events-none"></div>
 
-                        <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-10">
-                            <div className="flex items-start gap-6">
+                        <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8 md:gap-10">
+                            <div className="flex flex-col md:flex-row items-center md:items-start gap-6 text-center md:text-left">
                                 <div className="w-20 h-20 rounded-3xl bg-[#FF9966]/10 flex items-center justify-center text-[#FF9966] shrink-0 border border-[#FF9966]/20">
                                     <Users size={32} />
                                 </div>
@@ -141,7 +141,7 @@ const Packages = () => {
                                     <p className="text-white/60 max-w-md leading-relaxed">
                                         Planning a retreat or college trip? Get our exclusive group package for 10+ people with customized meals, DJ nights, and more.
                                     </p>
-                                    <div className="flex flex-wrap gap-2 mt-4">
+                                    <div className="flex flex-wrap justify-center md:justify-start gap-2 mt-4">
                                         <span className="text-xs font-bold text-white/40 bg-white/5 px-3 py-1 rounded-md border border-white/5">🎵 DJ Night</span>
                                         <span className="text-xs font-bold text-white/40 bg-white/5 px-3 py-1 rounded-md border border-white/5">🍛 Custom Menu</span>
                                         <span className="text-xs font-bold text-white/40 bg-white/5 px-3 py-1 rounded-md border border-white/5">🔥 Private Bonfire</span>
@@ -149,12 +149,12 @@ const Packages = () => {
                                 </div>
                             </div>
 
-                            <div className="text-center md:text-right shrink-0 bg-white/5 p-6 rounded-2xl border border-white/5 backdrop-blur-sm">
+                            <div className="text-center md:text-right shrink-0 bg-white/5 p-6 rounded-2xl border border-white/5 backdrop-blur-sm w-full md:w-auto">
                                 <div className="text-sm font-bold text-white/50 uppercase tracking-wider mb-1">Full Camp Booking</div>
                                 <div className="text-4xl font-black text-[#FF9966] mb-4">₹70,000</div>
                                 <a
                                     href="https://wa.me/919205018170"
-                                    className="inline-flex items-center justify-center gap-2 bg-white text-black px-8 py-4 rounded-xl font-bold hover:bg-gray-200 transition-colors w-full md:w-auto"
+                                    className="inline-flex items-center justify-center gap-2 bg-white text-black px-8 py-4 rounded-xl font-bold hover:bg-gray-200 transition-colors w-full"
                                 >
                                     Enquire Groups
                                 </a>

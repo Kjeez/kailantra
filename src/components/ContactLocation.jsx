@@ -1,9 +1,10 @@
+
 import React from 'react';
 import { Phone, Mail, MapPin, Instagram, Facebook, Navigation } from 'lucide-react';
 
 const ContactLocation = () => {
     return (
-        <section className="py-24 px-6 bg-[#050505] relative overflow-hidden">
+        <section id="contact" className="py-24 px-4 md:px-6 bg-[#121212] relative overflow-hidden">
             {/* Background Gradient */}
             <div className="absolute left-0 bottom-0 w-full h-[500px] bg-gradient-to-t from-[#1a1a1a] to-transparent pointer-events-none" />
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section id="about" className="bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a] py-32 px-6 relative overflow-hidden">
+        <section id="about" className="bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a] py-32 px-4 md:px-6 relative overflow-hidden">
             <div className="container mx-auto grid md:grid-cols-2 gap-20 items-center">
                 <div className="text-white">
                     <span className="inline-block bg-[#4CAF50]/15 border border-[#4CAF50]/30 text-[#4CAF50] px-5 py-2 rounded-full text-[13px] font-bold tracking-widest uppercase mb-6">
@@ -21,7 +21,7 @@ const About = () => {
                         Founded by adventure enthusiasts for adventure lovers, we pride ourselves on creating authentic experiences that reconnect you with nature while ensuring your comfort and safety.
                     </p>
 
-                    <div className="grid grid-cols-3 gap-6 mt-12">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
                         {[
                             { number: '500+', label: 'Happy Campers' },
                             { number: '4.9★', label: 'Google Rating' },

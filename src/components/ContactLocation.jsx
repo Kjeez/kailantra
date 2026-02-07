@@ -16,7 +16,7 @@ const ContactLocation = () => {
                         <span className="text-[#4CAF50] font-bold tracking-widest uppercase text-sm mb-4 block">Get In Touch</span>
                         <h2 className="text-4xl md:text-5xl font-black text-white mb-8">Plan Your <span className="text-[#4CAF50]">Escape</span></h2>
                         <p className="text-white/60 text-lg mb-12 max-w-md leading-relaxed">
-                            Have questions or ready to book? Reach out to us directly. We're here to help you plan the perfect mountain adventure.
+                            Ready to experience the best adventure camp in Tehri? Reach out to us. We're here to help you plan the perfect night stay.
                         </p>
 
                         <div className="space-y-8">

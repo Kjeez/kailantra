@@ -7,25 +7,25 @@ const Experience = () => {
             title: "Trekking & Hiking",
             desc: "Explore hidden trails, pine forests, and breathtaking viewpoints with our expert guides.",
             icon: <Compass size={32} className="text-[#4CAF50]" />,
-            image: "https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=2070&auto=format&fit=crop"
+            image: "/img/gallery/3.jpg"
         },
         {
             title: "Bonfire Nights",
             desc: "Gather around the warmth of the fire, share stories, and enjoy the magical mountain evenings.",
             icon: <Flame size={32} className="text-[#FF9966]" />,
-            image: "https://images.unsplash.com/photo-1525902095378-b1ad9b6263b6?q=80&w=2069&auto=format&fit=crop"
+            image: "/img/gallery/14.jpg"
         },
         {
             title: "Stargazing",
             desc: "Witness the Milky Way with your naked eye in the pollution-free skies of Ratoli.",
             icon: <Sunrise size={32} className="text-purple-400" />,
-            image: "https://images.unsplash.com/photo-1534234828563-0259772da343?q=80&w=1974&auto=format&fit=crop"
+            image: "/img/gallery/17.jpg"
         },
         {
             title: "Live Music Sessions",
             desc: "Soulful acoustic sessions that perfectly complement the sound of the wind and rustling leaves.",
             icon: <Music size={32} className="text-yellow-400" />,
-            image: "https://images.unsplash.com/photo-1516280440614-6697288d5d38?q=80&w=2070&auto=format&fit=crop"
+            image: "/img/gallery/11.jpg"
         }
     ];
 

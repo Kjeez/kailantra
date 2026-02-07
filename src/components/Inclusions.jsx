@@ -8,7 +8,7 @@ import {
 const Inclusions = () => {
     const included = [
         { icon: <Tent size={18} />, text: "Luxury Tent Accommodation" },
-        { icon: <Utensils size={18} />, text: "All Vegetarian Meals (B/L/D)" },
+        { icon: <Utensils size={18} />, text: "3 Buffet Meals (Veg & Non-Veg)" },
         { icon: <Coffee size={18} />, text: "Evening Tea & Snacks" },
         { icon: <Flame size={18} />, text: "Nightly Bonfire & Music" },
         { icon: <Shield size={18} />, text: "Sanitized Washrooms" },
@@ -25,7 +25,7 @@ const Inclusions = () => {
     ];
 
     return (
-        <section className="py-24 px-4 md:px-6 bg-[#0a0a0a] relative overflow-hidden">
+        <section className="py-24 px-4 md:px-6 bg-[#0a0a0a] relative overflow-hidden mountain-pattern">
             {/* Background Texture */}
             <div className="absolute inset-0 opacity-5 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px]"></div>
 

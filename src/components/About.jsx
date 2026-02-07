@@ -1,9 +1,21 @@
 import React from 'react';
+import { Mountain, Tent, Flame } from 'lucide-react';
 
 const About = () => {
     return (
         <section id="about" className="bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a] py-32 px-4 md:px-6 relative overflow-hidden">
-            <div className="container mx-auto grid md:grid-cols-2 gap-20 items-center">
+            {/* Camping Themed Decorative Elements */}
+            <div className="absolute top-10 right-10 opacity-5">
+                <Mountain size={200} className="text-[#4CAF50]" />
+            </div>
+            <div className="absolute bottom-20 left-10 opacity-5">
+                <Tent size={150} className="text-[#4CAF50]" />
+            </div>
+            <div className="absolute top-1/2 right-1/4 opacity-5">
+                <Flame size={120} className="text-[#E86A33]" />
+            </div>
+
+            <div className="container mx-auto grid md:grid-cols-2 gap-20 items-center relative z-10">
                 <div className="text-white">
                     <span className="inline-block bg-[#4CAF50]/15 border border-[#4CAF50]/30 text-[#4CAF50] px-5 py-2 rounded-full text-[13px] font-bold tracking-widest uppercase mb-6">
                         About Kailantra
@@ -23,11 +35,12 @@ const About = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
                         {[
-                            { number: '500+', label: 'Happy Campers' },
-                            { number: '4.9★', label: 'Google Rating' },
-                            { number: '3hrs', label: 'From Rishikesh' }
+                            { icon: '⛺', number: '500+', label: 'Happy Campers' },
+                            { icon: '⭐', number: '4.9★', label: 'Google Rating' },
+                            { icon: '🏔️', number: '3hrs', label: 'From Rishikesh' }
                         ].map((stat) => (
-                            <div key={stat.label} className="text-center p-6 bg-white/5 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+                            <div key={stat.label} className="text-center p-6 bg-white/5 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors relative overflow-hidden">
+                                <div className="text-4xl mb-2">{stat.icon}</div>
                                 <div className="text-3xl font-black text-[#4CAF50] mb-2">{stat.number}</div>
                                 <div className="text-xs text-white/70 uppercase tracking-widest">{stat.label}</div>
                             </div>
@@ -38,14 +51,14 @@ const About = () => {
                 <div className="relative h-[600px] hidden md:block">
                     <div className="absolute top-0 right-0 w-[70%] h-[75%] rounded-3xl overflow-hidden shadow-2xl">
                         <img
-                            src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2070&auto=format&fit=crop"
+                            src="/img/gallery/16.jpg"
                             alt="Kailantra Camp"
                             className="w-full h-full object-cover"
                         />
                     </div>
                     <div className="absolute bottom-0 left-0 w-[60%] h-[55%] rounded-3xl overflow-hidden shadow-2xl border-4 border-[#1a1a1a]">
                         <img
-                            src="https://images.unsplash.com/photo-1517824806704-9040b037703b?q=80&w=2070&auto=format&fit=crop"
+                            src="/img/gallery/15.jpg"
                             alt="Bonfire at Kailantra"
                             className="w-full h-full object-cover"
                         />

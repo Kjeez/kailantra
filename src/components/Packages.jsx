@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, Star, Users, Clock, Zap, Heart } from 'lucide-react';
+import { Check, Star, Users, Clock, Zap, Heart, Tent, Mountain } from 'lucide-react';
 
 const Packages = () => {
     const packages = [
@@ -49,6 +49,14 @@ const Packages = () => {
 
     return (
         <section id="packages" className="relative py-32 px-4 md:px-6 overflow-hidden bg-[#0a0a0a]">
+            {/* Camping Themed Decorative Elements */}
+            <div className="absolute top-20 left-10 opacity-5">
+                <Tent size={180} className="text-[#4CAF50]" />
+            </div>
+            <div className="absolute bottom-10 right-10 opacity-5">
+                <Mountain size={200} className="text-[#4CAF50]" />
+            </div>
+
             {/* Ambient Background Glow */}
             <div className="absolute top-1/4 left-0 w-[500px] h-[500px] bg-[#4CAF50]/10 rounded-full blur-[120px] pointer-events-none" />
             <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#FF9966]/10 rounded-full blur-[120px] pointer-events-none" />
@@ -56,13 +64,13 @@ const Packages = () => {
             <div className="container mx-auto relative z-10">
                 <div className="text-center mb-24">
                     <span className="inline-block py-1 px-3 rounded-full bg-white/5 border border-white/10 text-[#4CAF50] font-bold tracking-[0.2em] uppercase text-xs mb-6 backdrop-blur-sm">
-                        Choose Your Adventure
+                        ⛺ Choose Your Adventure 🏔️
                     </span>
                     <h2 className="text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
                         Kailantra <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/60">Packages</span>
                     </h2>
                     <p className="text-white/60 max-w-2xl mx-auto text-lg leading-relaxed">
-                        Curated experiences for every traveler. Choose the perfect plan for your mountain getaway.
+                        Curated camping & trekking experiences for every traveler. Choose the perfect plan for your mountain getaway.
                     </p>
                 </div>
 

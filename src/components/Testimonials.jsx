@@ -8,21 +8,21 @@ const Testimonials = () => {
             role: "Adventure Enthusiast",
             text: "One of the best camping experiences near Rishikesh! The food was amazing, and the staff made sure we were comfortable. The night trek was the highlight.",
             rating: 5,
-            image: "https://randomuser.me/api/portraits/men/32.jpg"
+            image: "/img/testimonials/testimonial_rahul.png"
         },
         {
             name: "Priya Singh",
             role: "Weekend Traveler",
             text: "Searching for peace? This is the place. Waking up to the mountain view was magical. The tents are clean and cozy. Highly recommended!",
             rating: 5,
-            image: "https://randomuser.me/api/portraits/women/44.jpg"
+            image: "/img/testimonials/testimonial_priya.png"
         },
         {
             name: "Amit & Neha",
             role: "Couple",
             text: "Perfect romantic getaway. The candlelight dinner arrangement was beautiful. It's quiet, safe, and incredibly scenic. Will visit again!",
             rating: 5,
-            image: "https://randomuser.me/api/portraits/men/46.jpg"
+            image: "/img/testimonials/testimonial_amit_neha.png"
         }
     ];
 
